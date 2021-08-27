@@ -7,7 +7,7 @@ sudo dmidecode -s system-manufacturer
 
 check product:
 ```bash
-sudo dmidecode | grep Product
+sudo dmidecode -s system-product-name
 ```
 
 Source: https://ostechnix.com/check-linux-system-physical-virtual-machine/
